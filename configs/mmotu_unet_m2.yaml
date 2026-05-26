@@ -1,0 +1,42 @@
+project_name: OvaSight-Agent
+seed: 42
+
+data:
+  raw_root: data/raw/MMOTU
+  processed_root: data/processed/mmotu
+  image_size: 320
+  val_fraction: 0.15
+  test_fraction: 0.15
+  image_extensions: [".png", ".jpg", ".jpeg", ".bmp"]
+  mask_keywords: ["mask", "label", "annotation", "annotations", "seg", "gt"]
+  min_mask_area_px: 20
+
+training:
+  epochs: 80
+  batch_size: 4
+  learning_rate: 0.0003
+  weight_decay: 0.00001
+  num_workers: 0
+  early_stopping_patience: 8
+  device: auto
+  amp: false
+
+model:
+  base_channels: 48
+  dropout: 0.05
+
+threshold_tuning:
+  thresholds: [0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80]
+  primary_metric: dice
+
+qc:
+  low_dice_flag: 0.65
+  low_confidence_flag: 0.55
+  max_empty_prediction_rate: 0.10
+  review_top_k: 40
+
+outputs:
+  model_dir: models
+  results_dir: results
+  figures_dir: figures
+  reports_dir: reports

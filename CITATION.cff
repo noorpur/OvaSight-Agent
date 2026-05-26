@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: OvaSight-Agent: Human-in-the-Loop Ovarian Tumor Ultrasound Segmentation Agent
+message: If you use this repository, please cite the dataset and core methods listed in docs/references.md.
+type: software
+authors:
+  - family-names: Zahra
+    given-names: Noor Ul Ain
+repository-code: https://github.com/your-username/OvaSight-Agent
+license: MIT
+version: 0.1.0

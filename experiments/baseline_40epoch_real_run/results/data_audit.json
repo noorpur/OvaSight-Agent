@@ -1,0 +1,7 @@
+{
+  "raw_root": "data/raw/MMOTU",
+  "paired_cases": 1469,
+  "valid_cases": 1469,
+  "blank_masks": 0,
+  "note": "No raw data is included in this repository. Place MMOTU under data/raw/MMOTU before running."
+}
