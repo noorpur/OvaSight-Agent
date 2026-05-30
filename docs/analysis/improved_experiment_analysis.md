@@ -136,4 +136,4 @@ If I continue this project, the next technical experiment should focus on bounda
 - separate analysis of 2D ultrasound versus CEUS/3D-style examples
 - calibration plots to measure whether predicted probabilities reflect uncertainty
 
-The current result is good enough to publish in the GitHub repo as the main experiment. The next step should be careful analysis and documentation, not endless retraining.
+The next step should be careful analysis and documentation, not endless retraining.
