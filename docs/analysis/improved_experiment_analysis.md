@@ -119,7 +119,7 @@ My interpretation is:
 4. **Expert review**  
    The review queue should be inspected by a qualified clinician or imaging expert to determine whether the failure modes are clinically acceptable, correctable, or systematic.
 
-## Final repo wording
+## Conclusion
 
 I would describe this project as:
 
