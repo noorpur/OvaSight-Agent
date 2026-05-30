@@ -10,6 +10,6 @@
 
 [5] X. Liu et al., “Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension,” Nature Medicine, 2020.
 
-[6] X. Liu et al., “SPIRIT-AI extension: guidelines for clinical trial protocols for interventions involving artificial intelligence,” BMJ, 2020.
+[6] S.C. Rivera et al., “SPIRIT-AI extension: guidelines for clinical trial protocols for interventions involving artificial intelligence,” BMJ, 2020. doi.org/10.1136/bmj.m3210
 
-[7] S. Lyu et al., “A Multi-Modality Ovarian Tumor Ultrasound Image Dataset for Unsupervised Cross-Domain Semantic Segmentation,” Pattern Recognition, dataset/code release associated with MMOTU.
+[7] Q. Zhao et al., “A Multi-Modality Ovarian Tumor Ultrasound Image Dataset for Unsupervised Cross-Domain Semantic Segmentation,” Pattern Recognition, dataset/code release associated with MMOTU.
